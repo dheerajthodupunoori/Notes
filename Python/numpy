@@ -1,0 +1,28 @@
+NUMPY Package:
+---------------
+used for mathematical operations , mainly arrays
+Functions:
+----------
+1.numpy.floor(numpy_array)
+2.numpy.ceil(numpy_array)
+3.numpy.rint(numpy_array)
+4.numpy.sum(numpy_array,axis)-by default axis is Zero , returns the sum all the elements.
+5.numpy.prod(numpy_array,axis)-by default axis is Zero , returns the sum all the elements.
+
+
+
+
+
+
+
+
+
+
+Notes:
+------
+
+numpy.set_printoptions(parameter) --> display options for numpy objects --> while priniting or displaying anu numpy object , 
+if we want to print in any specific order or if we want to customize the displaying of elements we can make use of this.
+(https://docs.scipy.org/doc/numpy/reference/generated/numpy.set_printoptions.html)
+
+----------------------------------------------------------------------------------------------------------------------
