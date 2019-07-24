@@ -1,0 +1,3 @@
+CORS:
+-----
+Cross origin resource sharing :- it is mechanism in which a request is blocked if requesting and requested resources are of different domain
