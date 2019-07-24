@@ -1,0 +1,12 @@
+Best practices for javascript,html and css:
+-------------------------------------------
+1.Indentation.
+2.No empty lines.
+3.Meaning full class names.
+4.Use shorthand properties for padding: 25px 30px 20px 20px , instead of padding-left,etc.
+5.use cabab-cased names for classes and ids like .subscribe-button.
+6.Do not use inline styles.
+7.Use relative paths.
+8.Use camelCase for naming functions in javascript.
+9.Use let keyword instead of var whereever its required , and also use let in for loops.
+10.
