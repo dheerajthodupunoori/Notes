@@ -8,7 +8,17 @@ Functions:
 3.numpy.rint(numpy_array)
 4.numpy.sum(numpy_array,axis)-by default axis is Zero , returns the sum all the elements.
 5.numpy.prod(numpy_array,axis)-by default axis is Zero , returns the sum all the elements.
+6.numpy.min(numpy_array , axis) - gives the minimum number along that axis.
+7.numpy.max(numpy_array ,axis)- gives the maximum value along the specified axis .
+			
+			axis - 0 -> column wise
+		    axis - 1 -> row wise 
 
+https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html (for axis)
+
+8.numpy.mean(numpy_array , axis) - computes the mean along the specified axis 
+9.numpy.var(numpy_array, axis) - computes the variance along the specified axis.
+10.numpy.std(numpy_array,axis)-computes the standard deviation along the specified axis.
 
 
 
