@@ -1,0 +1,19 @@
+ASSEMBLY:-
+---------
+1.Pre-compiled chunk of .net code which can be run(executed) by CLR.
+
+
+
+
+DLL:-
+---
+1.Dynamic link library.
+2.It should be consumed by other application.(it runs in others address space).
+3.Reusability
+
+
+
+.EXE
+----
+1.It is an executable.
+2.It runs in its own address space

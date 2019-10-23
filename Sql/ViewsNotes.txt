@@ -1,0 +1,17 @@
+Views:
+------
+SchemaBinding -- has to be added to view definition in order to create indexed view on that view 
+
+
+
+
+
+
+
+
+
+system stored procedures:
+-------------------------
+sp_spaceused-- it returns the space used by any database object
+                                          
+                                         EXECUTE sp_spaceused 'Employee'
