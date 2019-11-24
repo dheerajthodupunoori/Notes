@@ -1,0 +1,93 @@
+When Docker runs a container, it runs an image inside it. This image is usually built by executing a series of Docker instructions, which add layers on top of existing image or OS distribution.
+
+
+
+Defining an environment variable:
+---------------------------------
+ENV name Manu --- defining an environment variable or simply a variable with variable name as "name" and value as "Manu"
+ENTRYPOINT echo "Hello, $name"
+
+when container runs as docker run -it <image-nam> will produce output
+
+Output :- Hello, Manu
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTIONS?
+----------
+1. What is the difference between CMD and ENTRYPOINT?
+Answer:- CMD is the default instruction which will executed when we run a container , but if we want to overwrite the arguments at the runtime , we can do it by providing the values at runtime.Whereas , ENTRYPOINT instruction is also same as CMD instruction , but we cannot override the ENTRYPOINT instruction as like CMD instruction.
+
+Example for CMD instruction:
+Lets take a sample docker file 
+Dockerfile:
+
+FROM ubuntu:16.04
+CMD echo "Welcome to CMD"
+
+when we docker build and docker run the container , 
+
+docker run -it "image name"
+OUTPUT:- Welcome to CMD.
+
+Now lets overwrite
+
+docker run -it echo "Welcome to Docker"
+OUTPUT:Welcome to Docker.
+
+
+Example for ENTRYPOINT instruction:
+Lets take a sample docker file 
+Dockerfile:
+
+FROM ubuntu:16.04
+ENTRYPOINT ["echo", "Hi Docker"]
+
+when we docker build and docker run the container , 
+
+docker run -it "image name"
+OUTPUT:- Hi Docker.
+
+Now lets overwrite
+
+docker run -it echo "Welcome to Docker"
+OUTPUT:Hi Docker echo Welcome to Docker.
+
+so , we cannot override ENTRYPOINT instruction , instead it appends to that instruction(echo "Welcome to Docker" will be appended).
+
+
+
+2.Can we use multiple CMD instruations in Dockerfile?
+Answer:- When we write multiple command instructions , docker will consider only the latest CMD instruction and ignores the remaining ones.
+
+Example:
+Lets take a sample docker file 
+Dockerfile:
+
+FROM ubuntu:16.04
+CMD echo "Welcome to CMD"
+CMD echo "Welcome to Python"
+
+when we docker build and docker run the container , 
+
+docker run -it "image name"
+OUTPUT:- Welcome to Python"
+
+CMD echo "Welcome to CMD" is ignored.
+
+Now lets overwrite
+
+docker run -it echo "Welcome to Docker"
+OUTPUT:Welcome to Docker.
+
+
+
