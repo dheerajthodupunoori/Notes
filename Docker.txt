@@ -25,6 +25,15 @@ Contains files which are not included during build and in containers.
 
 
 
+Optimizing Dockerfile with OnBuild:-
+------------------------------------
+When we use any ONBUILD instructions in docker , those instructions are not executed when we build that image . When we use that built image which consists of ONBUILD docker instructions as a base image for another DOCKER file , while building that another DOCKER file the ONBUILD instructions of the base image are executed.
+
+Reference:- https://www.learnitguide.net/2018/06/docker-onbuild-command-with-examples.html
+
+
+
+
 
 QUESTIONS?
 ----------
