@@ -15,6 +15,10 @@ Output :- Hello, Manu
 
 
 
+.dockerignore:-
+--------------
+Contains files which are not included during build and in containers.
+
 
 
 
