@@ -1,0 +1,68 @@
+What is Cloud?
+--------------
+Infrastructure as a Servcie (Iaas)  - provides all infrastructure needed for computing environment.Virtual machines , networking , ip addresses , storage space. 
+
+
+
+Platform as a Service (Paas) - 
+
+
+
+Software as a Service (Saas) - 
+
+
+
+
+
+
+
+Reasons for choosing cloud:-
+---------------------------
+1.Reduced time - can be configured in less tim.
+2.Less cost - costs less as we pay only for what we use / how much we use.
+
+
+
+
+
+Services provided by Microsoft Azure
+------------------------------------
+1.Compute
+2.Data Storage 
+3.Machine learning and Artificial intelligence
+4.Devops
+5.Integration
+6.Identity
+7.Network
+8.Data Analytics
+9.Mobile Applications.
+10.IOT
+11.Manage
+12.Mixed Reality.
+
+
+
+
+
+
+
+Compute services / compute options in Azure:-
+--------------------------------------------
+Compute in cloud - means CPU and the memory that you are going to use to run your application code.
+
+
+
+
+1.Virtual machines - we can create Linux VM , Windows VM.
+
+
+2.Azure app Services - is all about providing platform for running web applications . What ever may the language used.
+
+
+3.Containers
+4.Serverless - Azure functions , Logic Apps , Event Grid ,
+
+
+
+
+
