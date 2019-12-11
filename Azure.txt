@@ -59,8 +59,260 @@ Compute in cloud - means CPU and the memory that you are going to use to run you
 2.Azure app Services - is all about providing platform for running web applications . What ever may the language used.
 
 
-3.Containers
-4.Serverless - Azure functions , Logic Apps , Event Grid ,
+3.Containers -  Azure has full support for kubernetes services.
+
+
+4.Serverless - Azure functions , Logic Apps , Event Grid.
+
+Serverless computing do not require any infrastructure setup.
+
+
+	Azure functions - a piece of function (a simple function like in any programming language) which can be written in any language which are triggered by external sources(any http request).
+
+	Event Grid -  publish and subscribe kind of events.
+
+
+
+
+
+
+
+
+Storing and Processing data in Azure:
+-------------------------------------
+
+1.Self - Managed
+2.Service Based
+
+
+Data Storage options:
+--------------------
+1.Table storage
+2.Blob storage
+3.Queues
+4.Redis Cache
+
+
+
+Azure Cosmos DB.
+
+Azure Data Lakes - large scale data storage built for analytics and analytic tools.
+
+
+
+Data Processing
+---------------
+
+ETL data factory - similar to SSIS services in SQL server . Loads data from different systems , different clouds and cloud providers.Used when we want to load data from different sources.
+
+
+Analyzing data in Azure:
+------------------------
+
+1.SQL data Warehouse
+2.Analysis Services
+3.Azure Data Bricks
+4.Power BI - If you want show the data to the users , then power BI is used.
+like in the form of charts , bars , etc .
+5.Stream Analytics
+
+
+
+
+
+
+Integrating Applications in Azure:
+----------------------------------
+1.API Management
+2.Event Grid 
+
+
+Networking in the cloud:
+------------------------
+1.Virtual Networks.
+2.Public IP Addresses.
+3.Network Security Groups.
+4.Service Endpoint Policies.
+
+
+	Network Services:
+	-----------------
+	1.CDN
+	2.Traffic Manager
+	3.Load Balancer
+	4.DNS Zones 
+
+
+->Express Routes.
+
+
+
+Managing and Monitoring Azure resources:
+----------------------------------------
+Azure Management Tools:
+-----------------
+1.Portal - web-based tool.
+2.CLI/Powershell
+3.Cloud Shell
+4.Mobile App
+
+
+
+
+Managing Azure resources:
+-------------------------
+1.Backup and site recovery.
+2.Automation and scheduling.
+3.Policy.
+4.RBAC - Role - Base access control.
+
+
+
+Monitoring:
+----------- 
+1.Monitor - whats happening in an application? or check the health of our application.
+2.Network Watcher - Network tracing tool - to capture the traffic.
+3.Alerts - to send notifications. 
+
+
+  
+Developing for Azure:
+---------------------
+Tools and Technologies:
+----------------------
+1.SDKS - for all languages 
+2.Developer Tools - Visual Studio , Eclipse , Visual Studio Code , IntelliJ
+3.Container Development
+4.Build and Deploy
+
+Container Development:
+----------------------
+1.Docker
+2.Cloud Deployment - Kubernetes
+
+
+
+Azure DevOps:
+-------------
+1.Azure Boards - planning , bugs , sort of tracking.
+2.Azure Repos
+3.Azure Pipelines
+4.Azure Test Plans
+
+
+Using Identity and Security in Azure:
+-------------------------------------
+->Identifying users , keeping track of login and authentication credentials.
+
+->Securing applications.
+
+	1.Core directory services.
+	2.Multi-factor authentication.
+	
+	
+	
+	1.Managed Identities.
+	 
+	 
+	 
+	 Data Protection Tools:
+	 ----------------------
+	 1.Information Protection.
+	 2.Key Vault.
+	 3.Hardware Security Module.
+	 
+	 
+Summary:
+--------
+Additinal servcies available apart from above are:
+
+1.Media Services.
+2.Mobile Services.
+3.IOT.
+4.Mixed Reality.
+5.Blockchain.
+6.Bot Service.
+7.Search.
+
+
+
+Azure Blog :- https://azure.microsoft.com/blog/
+
+
+Azure Updates :- https://azure.microsoft.com/updates/
+
+
+
+
+
+
+
+Note:-
+------
+1.Microsoft azure is not only for microsoft technologies , it is for any technology.
+
+
+
+
+
+
+
+Questions?
+----------
+
+1.What is VPN?
+
+2.What is virtual Network?
+
+3.What are REST / Web APIS?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
