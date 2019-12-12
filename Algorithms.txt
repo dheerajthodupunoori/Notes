@@ -1,0 +1,5 @@
+Search Techniques:
+------------------
+1.Linear Search - O(n)
+2.Jump Search.
+3.Binary Search - O(logn)

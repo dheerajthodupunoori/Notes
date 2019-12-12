@@ -3,23 +3,29 @@ What is Cloud?
 Infrastructure as a Servcie (Iaas)  - provides all infrastructure needed for computing environment.Virtual machines , networking , ip addresses , storage space. 
 
 
-
-Platform as a Service (Paas) - 
-
+Microsoft Azure - public cloud offering.
 
 
-Software as a Service (Saas) - 
+Platform as a Service (Paas) - Azure App Services , SQL Azure
 
 
 
-
+Software as a Service (Saas) - Office 365  
 
 
 
 Reasons for choosing cloud:-
 ---------------------------
 1.Reduced time - can be configured in less tim.
+
 2.Less cost - costs less as we pay only for what we use / how much we use.
+
+3.Ease of use - no need to buy any physical server and no maintenance.
+
+4.Scalability - up when needed / down when not required.
+
+5.Pay for what you use.
+
 
 
 
@@ -251,6 +257,35 @@ Note:-
 ------
 1.Microsoft azure is not only for microsoft technologies , it is for any technology.
 
+
+
+
+
+Part:-2
+-------
+
+https://tryappservice.azure.com/
+
+
+Introduction to Azure App Services:
+-----------------------------------
+
+Web Apps - to host web applications
+
+API Apps - to host API's
+
+Mobile Apps
+
+Logic Apps
+
+Function Apps
+
+
+1.What are Azure App Services  -  
+
+2.When and why you should use Azure App Services  -  
+
+3.Capabilities of each service  -  
 
 
 
