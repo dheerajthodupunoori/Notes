@@ -272,13 +272,13 @@ Introduction to Azure App Services:
 
 Web Apps - to host web applications
 
-API Apps - to host API's
+API Apps - to host API's / expose API's
 
 Mobile Apps
 
 Logic Apps
 
-Function Apps
+Function Apps - serverless piecses of code
 
 
 1.What are Azure App Services  -  
@@ -288,8 +288,40 @@ Function Apps
 3.Capabilities of each service  -  
 
 
+Hosting Web Applications with Web Apps:
+---------------------------------------
+Traditional web hosting - in traditional web hosting we need to take of entire infrastructure like 
+Miantaining the Server in which we are going to host our application ,
+
+firewall settings,
+
+configuration settings (configuring web server) etc kind of things which is alot of work and efforts required.
+
+Azure Web App:
+--------------
+In Azure web Apps , we just need to concentrate only on application and bussiness values.
+
+We can host any kind of web application in azure web app like .net , php , python , java , node.js etc 
 
 
+1.SLA 99.95% - azure web app makes sures that your web application is up and running 99.95% 
+2.Custom domains 
+3.Deployment slots
+4.Continuous deployment
+5.(Auto) scaling
+6.Authentication / Authorization 
+7.Traffic Management
+8.Access to on-premises data - which allows the web application we deployed in azure web app to communicate with on-premises data like database server etc .
+
+
+
+
+Deployment slots - it is a feature of app services. It is used to setup environments for testing etc .
+
+->we can create upto 19 deployment slots.
+->a deployment slot is full web app
+->scaling is only possible in production slot
+->deployment slot is not good for performance testing , because sacling is not possible unless its a production slot
 
 
 Questions?
@@ -301,55 +333,4 @@ Questions?
 
 3.What are REST / Web APIS?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+4.What is resource group optino when configuring azure web app from visual studio 
