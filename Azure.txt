@@ -324,6 +324,45 @@ Deployment slots - it is a feature of app services. It is used to setup environm
 ->deployment slot is not good for performance testing , because sacling is not possible unless its a production slot
 
 
+
+Web Jobs:
+---------
+A web app consists of one or more web jobs.
+
+Used to run background processes.
+
+Scaling Up and Out:
+------------------
+Scaling Up - Scaling Vertically - 
+
+Scaling Out - Scaling Horizontally -
+
+
+
+
+Exposing API'S with API Apps
+----------------------------
+
+What are API Apps?
+------------------
+->It is used to host and expose our API(Platform as a Service).
+
+->API Apps provides authentication/Authorization
+
+->Supports CORS mechanism
+
+->Helps to generate API metadata by supporting Swagger.
+
+
+API Definition
+--------------
+It is basic metadata about our API.
+
+CORS:
+-----
+Cross Origin Resource Sharing
+
+
 Questions?
 ----------
 
@@ -333,4 +372,4 @@ Questions?
 
 3.What are REST / Web APIS?
 
-4.What is resource group optino when configuring azure web app from visual studio 
+4.What is resource group optino when configuring azure web app from visual studio?
