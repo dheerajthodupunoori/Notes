@@ -13,6 +13,18 @@ Platform as a Service (Paas) - Azure App Services , SQL Azure
 Software as a Service (Saas) - Office 365  
 
 
+4 ways to access azure services:
+--------------------------------
+1.Azure Portal.
+2.Azure Powershell.
+3.Azure CLI.
+4.Rest Clients
+
+
+
+Azure Resource Manager:
+-----------------------
+
 
 Reasons for choosing cloud:-
 ---------------------------
